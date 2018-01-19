@@ -11,8 +11,8 @@ namespace WebServicesCidades.Models
         SqlCommand cmd = null;
         SqlDataReader rd = null;
 
-        //string conexao = @"Data Source=.\SqlExpress;Initial Catalog=ProjetoCidades;user=sa;password=senai@123";
-        string conexao = @"Data Source=.\SUPORTE-01;Initial Catalog=ProjetoCidades;user=sa;password=";
+        string conexao = @"Data Source=.\SqlExpress;Initial Catalog=ProjetoCidades;user=sa;password=senai@123";
+        //string conexao = @"Data Source=.\SUPORTE-01;Initial Catalog=ProjetoCidades;user=sa;password=";
 
         public List<Cidades> Listar()
         {
